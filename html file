@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Section -->
+    <header id="home">
+        <div class="container">
+            <h1>Hi, I'm <span>Your Name</span></h1>
+            <h2>A Passionate Web Developer</h2>
+            <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a web developer with a passion for creating visually appealing and user-friendly websites. I have a background in [Your Background], and I specialize in [Your Specializations]. My journey in web development started when [Your Journey].</p>
+            <p>In addition to my technical skills, I have a strong foundation in [Your Education] and have worked on numerous projects that demonstrate my ability to deliver high-quality solutions.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript & jQuery</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Responsive Design</li>
+                <li>Version Control (Git & GitHub)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project Name</h3>
+                <p>Description of the project, technologies used, and the problem it solves.</p>
+                <a href="https://github.com/yourusername/project" target="_blank">View on GitHub</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
